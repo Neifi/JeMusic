@@ -1,0 +1,106 @@
+$base-color: #3AAED3;
+$secondary-color: #F3D65F;
+$third-color: #F965A9;
+$primary-text-color: #FFFF;
+$secondary-text-color: #0000;
+$input-color: #359ABA;
+$primary-font: AppleGothic; 
+
+*{
+    font-family: $primary-font;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    color: white;
+
+}
+
+.logo h1{
+    font-size: 30px;
+}
+
+.login-input{
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    
+}
+
+.login-input ion-input{
+    margin-top: 1em;
+    width: 270px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: $input-color;
+    border: 0;
+    
+}
+
+.login-input ion-input{
+
+}
+
+.login-input ion-input ion-icon{
+    margin: 7px;
+}
+
+.login-button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+}
+
+.login-button button{
+    margin-top:1em ;
+    background-color: $secondary-color;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.login-button button:hover{
+    background-color: $third-color;
+}
+
+.register-account{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+}
+
+.register-account a{
+    color: $secondary-color;
+}
+
+.social-login{
+    margin-left: auto;
+    margin-right: auto;
+    width: 235px;
+}
+
+.social-login ion-icon{
+    color: $secondary-color;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.social-login ion-icon:hover{
+    color: $third-color;
+}
+
+.advert{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+footer p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+}
+

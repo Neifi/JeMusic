@@ -1,0 +1,4 @@
+{
+    "base_dev_endpoint":"http:localhost:8080/api",
+    "base_prod_endpoint":""
+}

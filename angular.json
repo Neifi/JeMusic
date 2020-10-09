@@ -20,6 +20,10 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              {"glob": "**/*.json",
+              "input": "src/assets/config",
+              "output": "./assets/config/"
+              },
               {
                 "glob": "**/*",
                 "input": "src/assets",
@@ -128,7 +132,9 @@
               "tsconfig.spec.json",
               "e2e/tsconfig.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "e2e": {
@@ -174,7 +180,8 @@
     }
   },
   "cli": {
-    "defaultCollection": "@ionic/angular-toolkit"
+    "defaultCollection": "@ionic/angular-toolkit",
+    "analytics": "1878d4b9-a2f8-4bba-9afb-78ce7bc6b66f"
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {

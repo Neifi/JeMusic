@@ -1,0 +1,73 @@
+<ion-grid fixed>
+  <ion-row class="logo">
+    <ion-col>
+      <h1>JeMusic</h1>
+    </ion-col>
+  </ion-row>
+  <ion-row class="login-input">
+    <ion-col size="6">
+      <form
+        [formGroup]="loginForm"
+        (ngSubmit)="log()"
+        class="login-input-block"
+      >
+        <ion-input
+          formControlName="username"
+          type="email"
+          name="email"
+          id=""
+          placeholder="Email"
+        >
+          <ion-icon name="at"> </ion-icon>
+        </ion-input>
+
+        <ion-input
+          formControlName="password"
+          type="password"
+          name="password"
+          id=""
+          placeholder="Password"
+        >
+          <ion-icon slot="start" name="key"></ion-icon>
+        </ion-input>
+
+        <div class="login-button">
+          <button disabled="true" (click)="log()">Login</button>
+        </div>
+      </form>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="register-account">
+    <ion-col size="12">
+      <p>D'ont have account yet?<a href="/"> Create account</a></p>
+    </ion-col>
+  </ion-row>
+  <ion-row class="social-login">
+    <p>Or login with:</p>
+    <ion-col>
+      <a href="">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
+      <a href="">
+        <ion-icon name="logo-google"></ion-icon>
+      </a>
+      <a href="">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </a>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="12">
+      <ion-col size="12">
+        <div class="advert">
+          <span>The app is not fully developed :)</span>
+        </div>
+      </ion-col>
+    </ion-col>
+  </ion-row>
+  <footer>
+    <p>&copy; 2020 Neifi Alcantara</p>
+    
+  </footer>
+</ion-grid>

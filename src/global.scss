@@ -24,3 +24,17 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+$base-color: #3AAED3;
+$base-color-rgb: rgb(60, 173, 211);
+$secondary-color: #F3D65F;
+$third-color: #F965A9;
+$primary-text-color: #FFFF;
+$secondary-text-color: #0000;
+
+:root {
+    
+    --ion-background-color-rgb: $base-color-rgb;
+    --ion-background-color: $base-color;
+
+  }
